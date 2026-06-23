@@ -1,0 +1,60 @@
+# Xcode 用户配置（冲突重灾区）
+xcuserdata/
+*.xcuserstate
+*.xcworkspace-state
+*.xccheckout
+*.xcscmblueprint
+*.pbxuser
+*.mode1v3
+*.mode2v3
+*.perspectivev3
+xcshareddata/xcdebugger/
+xcshareddata/breakpoints_v2.xcbkptlist
+
+# 项目内编译产物
+build/
+Build/
+DerivedData/
+*.app
+*.ipa
+*.dSYM
+*.xcarchive
+*.o
+*.log
+
+# CocoaPods
+Pods/
+!Podfile
+Podfile.lock
+*.xcworkspace
+!*.xcworkspace/contents.xcworkspacedata
+
+# SPM
+.swiftpm/.build/
+Package.resolved
+!Package.swift
+
+# Carthage
+Carthage/Build/
+Carthage/Checkouts/
+
+# Fastlane
+fastlane/screenshots/
+fastlane/test_output
+fastlane/report.xml
+
+# 证书密钥、环境文件
+*.p12
+*.pem
+*.mobileprovision
+.env
+.env.local
+
+# Mac 系统文件
+.DS_Store
+._*
+Thumbs.db
+# 编辑器临时文件
+*.swp
+*~
+
